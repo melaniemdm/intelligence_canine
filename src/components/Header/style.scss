@@ -1,0 +1,31 @@
+@import '../../styles/communs.scss';
+header{
+    margin: 20px;
+}
+
+.logoImg{
+    border-radius: 10px;
+    background-color:$colorWhite;
+    width: $widthlogo;
+    height: $widthlogo;
+}
+.containerLogo{
+ border-radius: 10px;
+ margin: 5px;
+ background-color:$colorWhite;
+}
+.nom{
+    width: $widthlogo;
+    text-align: center;
+    color: $colorOrange2;
+    font-size: 30px;
+    font-weight: bold;
+       
+}
+
+
+.containerHeader{
+    display: flex;
+    justify-content: space-between;
+    background-color:$colorBlack;
+}
