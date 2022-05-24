@@ -1,0 +1,51 @@
+@import '../../styles/communs.scss';
+.containerGlobal{
+margin:$marginContainer;
+}
+h1{margin-left: 20px;}
+.containerPrestations{
+    margin: $marginContainer;
+    display: flex;
+    justify-content:space-around;
+    gap: 50px;
+}
+
+.presta{
+  background: white;
+  cursor: pointer;
+  border-radius: 15px;
+  position: relative;
+  padding: 25px 30px;
+  color: var($colorOrange2);
+  height: 200px;
+   width: 300px;
+   outline: 1px solid $colorOrange2;
+
+}
+
+.presta::after{
+  content: '';
+  background: $colorOrange2;
+  border-radius: 15px;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 0;
+  clip-path: circle(10% at 0% 0%);           transition: all .3s ease-in;
+}
+
+.content{
+  position: relative;
+  z-index: 1;
+  transition: all .3s ease-in;
+}
+
+.presta:hover::after{
+  clip-path: circle(100%);
+}
+
+.presta:hover .content{
+  color: $colorWhite;
+}
