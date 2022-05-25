@@ -6,9 +6,9 @@ function Navigate(){
         <div className='containerNav'>
 <div className="container black circleBehind">
   <a href=" ">HOME</a>
-  <a href=" ">ARTICLES</a>
-  <a href=" ">PORTFOLIO</a>
-  <a href=" ">ABOUT</a>
+  <a href=" ">SERVICES</a>
+  <a href=" ">PROFESSIONNELS</a>
+  <a href=" ">PARTICULIERS</a>
   <a href=" ">CONTACT</a>
 </div>
 
