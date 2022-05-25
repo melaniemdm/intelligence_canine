@@ -10,13 +10,13 @@ function Prestations(){
 
 <div className="containerPrestations">
 
- { nosPrestations.map(((prestation,index)=> <div className="presta" key={index}><div className="content" ><div  className='containerOnePresta'> 
+ { nosPrestations.map((prestation,index)=> <div className="presta" key={index}><div className="content" ><div  className='containerOnePresta'> 
  
  <h2 >{prestation.titlePresta}</h2>
     <p>{prestation.prix}</p>
  
  
-  </div> </div> </div>))}
+  </div> </div> </div>)}
 
   </div>
  
