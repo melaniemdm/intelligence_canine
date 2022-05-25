@@ -5,6 +5,7 @@ import Header from '../src/components/Header';
 import Banner from '../src/components/Banner';
 import Prestations from '../src/components/Prestations';
 import Pro from '../src/components/Pro';
+import Particulier from '../src/components/Particuliers';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -14,6 +15,7 @@ root.render(
   <Banner/>
   <Prestations/>
   <Pro/>
+  <Particulier/>
    </React.StrictMode>
 );
 
