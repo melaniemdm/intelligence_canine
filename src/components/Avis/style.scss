@@ -6,13 +6,18 @@
     align-items: center;
     flex-wrap: wrap;
     justify-content:space-around;
-   
+   background-color:black;
 }
 .date{
     font-style: italic; 
     color:grey;
 }
-  
+  .titleAvis{
+    color:white;
+    background-color:black;
+    padding:20px;
+    margin: 0;
+  }
   /* CSS talk bubble */
   .talk-bubble {
       margin: 40px;
@@ -20,7 +25,7 @@
     position: relative;
       width: 400px;
       height: auto;
-      background-color: black;
+      background-color: white;
   }
   .border{
     border: 8px solid $colorOrange2;
@@ -29,8 +34,7 @@
     border-radius: 30px;
       -webkit-border-radius: 30px;
       -moz-border-radius: 30px;
-  
-  }
+    }
  
    
   /*Right triangle, placed bottom left side slightly in*/
@@ -56,7 +60,7 @@
     top: auto;
       bottom: -20px;
       border: 12px solid;
-      border-color: black transparent transparent black;
+      border-color: white transparent transparent white;
   }
   
   

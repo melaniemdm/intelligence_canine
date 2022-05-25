@@ -7,7 +7,7 @@ function Avis() {
   const client = avisClient;
   return (
    <div>
-        <h1>Ma meilleure Pub c'est vous !</h1>
+        <h1 className="titleAvis">Ma meilleure Pub c'est vous !</h1>
        <div className="containerAvis"> 
       {client.map((avis, index) => (
         <div
