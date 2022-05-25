@@ -1,13 +1,17 @@
 @import '../../styles/communs.scss';
 .containerGlobal{
-margin:$marginContainer;
+height:600px;
+display: flex;
+flex-direction: column;
 }
-h1{margin-left: 20px;}
+
+
 .containerPrestations{
     margin: $marginContainer;
     display: flex;
     justify-content:space-around;
     gap: 50px;
+    padding-top:100px;
 }
 
 .presta{
@@ -18,7 +22,7 @@ h1{margin-left: 20px;}
   padding: 25px 30px;
   color: var($colorOrange2);
   height: 200px;
-   width: 300px;
+   width: 190px;
    outline: 1px solid $colorOrange2;
 
 }

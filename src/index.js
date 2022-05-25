@@ -4,6 +4,7 @@ import './index.css';
 import Header from '../src/components/Header';
 import Banner from '../src/components/Banner';
 import Prestations from '../src/components/Prestations';
+import Pro from '../src/components/Pro';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -12,7 +13,8 @@ root.render(
   <Header/>
   <Banner/>
   <Prestations/>
-  </React.StrictMode>
+  <Pro/>
+   </React.StrictMode>
 );
 
 // If you want to start measuring performance in your app, pass a function
