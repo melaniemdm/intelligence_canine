@@ -8,7 +8,7 @@ function Navigate(){
   <a href="#home">HOME</a>
   <a href="#services">SERVICES</a>
   <a href="#pro">PROFESSIONNELS</a>
-  <a href="#particuliers ">PARTICULIERS</a>
+  <a href="#particuliers">PARTICULIERS</a>
   <a href="#contactMe">CONTACT</a>
 </div>
 
