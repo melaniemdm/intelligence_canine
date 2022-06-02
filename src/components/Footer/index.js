@@ -19,9 +19,9 @@ function Footer(){
 </div>
 <div className="textFooter">
 <a href="https://www.facebook.com/Intelligencecanine">
-<img src="/assets/facebook.png" alt="lien facebook" className="logoFacebook"/>
+<img src="./assets/facebook.png" alt="lien facebook" className="logoFacebook"/>
 <div>&nbsp; Abonnez vous à la page facebook et venez voir par vous même  ! &nbsp;</div>
-<img src="/assets/like.png" alt="lien facebook" className="like"/></a>
+<img src="./assets/like.png" alt="lien facebook" className="like"/></a>
 
 </div>
 </div>
