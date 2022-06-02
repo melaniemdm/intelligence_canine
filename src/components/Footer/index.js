@@ -10,11 +10,11 @@ function Footer(){
 </div>
 
 <div className="containerNavFooter"><div class="container teal borderYtoX">
-<a href=" ">HOME</a>
-  <a href=" ">SERVICES</a>
-  <a href=" ">PROFESSIONNELS</a>
-  <a href=" ">PARTICULIERS</a>
-  <a href=" ">Me contacter</a>
+<a href="#home">HOME</a>
+  <a href="#services">SERVICES</a>
+  <a href="#pro">PROFESSIONNELS</a>
+  <a href="#particuliers">PARTICULIERS</a>
+  <a href="#contactMe">Me contacter</a>
 </div>
 </div>
         </footer>

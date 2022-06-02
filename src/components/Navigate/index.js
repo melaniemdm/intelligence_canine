@@ -5,11 +5,11 @@ function Navigate(){
     return(
         <div className='containerNav'>
 <div className="container black circleBehind">
-  <a href=" ">HOME</a>
-  <a href=" ">SERVICES</a>
-  <a href=" ">PROFESSIONNELS</a>
-  <a href=" ">PARTICULIERS</a>
-  <a href=" ">CONTACT</a>
+  <a href="#home">HOME</a>
+  <a href="#services">SERVICES</a>
+  <a href="#pro">PROFESSIONNELS</a>
+  <a href="#particuliers ">PARTICULIERS</a>
+  <a href="#contactMe">CONTACT</a>
 </div>
 
 

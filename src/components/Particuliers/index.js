@@ -14,7 +14,7 @@ function BannerParticuliers(){
     
    
         return (
-          <div className="slide-container">
+          <div className="slide-container" id="particuliers">
               <h1 className="titleTrustPart">Ils m'ont fait confiance ! </h1>
             <Zoom    duration={1000} transitionDuration={3000}  cssClass='slideShow'  arrows={false} >
               {
