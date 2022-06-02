@@ -54,3 +54,9 @@
 .presta:hover .content {
   color: $colorWhite;
 }
+@media #{$medium-down} {
+  .textFooter{
+     margin-top:50px;
+     
+}
+}
