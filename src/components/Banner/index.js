@@ -15,7 +15,7 @@ function Banner(){
    
         return (
           <div className="slide-container">
-            <Slide   duration={1000} transitionDuration={3000}  cssClass='slideShow'  arrows={false} slidesToShow={2}>
+            <Slide   duration={1000} transitionDuration={3000}  cssClass='slideShow'  arrows={false} slidesToShow={1}>
               {
                 images.map((each, index) => <img key={index} style={{width: "100%"}} src={each} alt="images de nagano " className="slideShowImg"/>)
               }
