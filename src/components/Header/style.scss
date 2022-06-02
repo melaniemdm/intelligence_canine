@@ -33,7 +33,7 @@ header{
 
 @media #{$medium-down} {
     header{
-        margin: $marginContainerMobile;
+        margin: 0;
     }
     .logoImg{
         width: $widthlogoMobile;
