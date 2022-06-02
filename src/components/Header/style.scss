@@ -1,4 +1,5 @@
 @import '../../styles/communs.scss';
+
 header{
     margin: $marginContainer;
 }
@@ -29,3 +30,19 @@ header{
     justify-content: space-between;
     background-color:$colorBlack;
 }
+
+@media #{$medium-down} {
+    header{
+        margin: $marginContainerMobile;
+    }
+    .logoImg{
+        width: $widthlogoMobile;
+        height: $widthlogoMobile;
+    }
+    .nom{
+    width: $widthlogoMobile;
+    font-size: 20px;
+        }  
+}
+
+   

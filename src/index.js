@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
+import './styles/index.scss';
 import ScrollToTop from "react-scroll-to-top";
 import Header from '../src/components/Header';
 import Banner from '../src/components/Banner';
