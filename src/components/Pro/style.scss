@@ -1,20 +1,20 @@
 @import "../../styles/communs.scss";
 
-h1 {
-  margin-left: 20px;
-}
+
 .containerProTrust {
+  margin-top:50px;
+  margin-bottom:50px;
   height: auto;
   display: flex;
   flex-direction: column;
 }
 
 .containerNamePro {
-  margin: $marginContainer;
+ 
   display: flex;
   justify-content: space-around;
-  gap: 50px;
-  padding-top: 100px;
+  gap: 5px;
+  padding-top: 70px;
   flex-wrap: wrap;
   width: 100%;
 }

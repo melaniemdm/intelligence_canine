@@ -6,13 +6,12 @@
 }
 
 .containerPrestations {
-  margin: $marginContainer;
-  display: flex;
+    display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
   width: 100%;
-  gap: 50px;
-  padding-top: 100px;
+  gap: 5px;
+  padding-top: 70px;
 }
 
 .presta {
@@ -54,9 +53,4 @@
 .presta:hover .content {
   color: $colorWhite;
 }
-@media #{$medium-down} {
-  .textFooter{
-     margin-top:50px;
-     
-}
-}
+
