@@ -7,6 +7,7 @@ import Prestations from '../src/components/Prestations';
 import Pro from '../src/components/Pro';
 import Particulier from '../src/components/Particuliers';
 import Avis from '../src/components/Avis';
+import Contact from '../src/components/Contact';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -18,6 +19,7 @@ root.render(
   <Pro/>
   <Particulier/>
   <Avis/>
+  <Contact/>
    </React.StrictMode>
 );
 
