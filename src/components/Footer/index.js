@@ -1,4 +1,5 @@
 import logo from '../../assets/logo.png';
+
 import './style.scss';
 
 function Footer(){
@@ -15,6 +16,11 @@ function Footer(){
   <a href="#pro">PROFESSIONNELS</a>
   <a href="#particuliers">PARTICULIERS</a>
   <a href="#contactMe">Me contacter</a>
+</div>
+<div className="textFooter">
+<img src="/assets/facebook.png" alt="lien facebook" className="logoFacebook"/>
+<div>&nbsp; Abonnez vous à la page facebook et venez voir par vous même  ! &nbsp;</div>
+<img src="/assets/like.png" alt="lien facebook" className="like"/>
 </div>
 </div>
         </footer>
