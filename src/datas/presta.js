@@ -26,7 +26,7 @@ export const nosPrestations = [
   },
   {
     id: "6",
-    titlePresta: "Cours d'étologie",
+    titlePresta: "Cours d'éthologie",
     prix: "sur devis",
   },
 ];
