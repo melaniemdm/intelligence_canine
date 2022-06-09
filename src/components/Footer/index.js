@@ -10,7 +10,7 @@ function Footer(){
     <img  alt="logo mdm development" src={logo} className="logoFooter" />
 </div>
 
-<div className="containerNavFooter"><div class="container teal borderYtoX">
+<div className="containerNavFooter"><div className="container teal borderYtoX">
 <a href="#home">HOME</a>
   <a href="#services">SERVICES</a>
   <a href="#pro">PROFESSIONNELS</a>

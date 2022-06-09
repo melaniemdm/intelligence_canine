@@ -4,6 +4,7 @@ import './styles/index.scss';
 import ScrollToTop from "react-scroll-to-top";
 import Header from '../src/components/Header';
 import Banner from '../src/components/Banner';
+import Presentation from '../src/components/Presentation';
 import Prestations from '../src/components/Prestations';
 import Pro from '../src/components/Pro';
 import Particulier from '../src/components/Particuliers';
@@ -19,7 +20,7 @@ root.render(
     <div>
   <Header/>
   <Banner/>
- 
+ <Presentation/>
   <Prestations/>
   <Pro/>
   <Particulier/>

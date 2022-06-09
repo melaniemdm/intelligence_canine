@@ -3,7 +3,7 @@ import {nagano} from '../../datas/nag';
 
 import React from 'react';
 import { Slide   } from 'react-slideshow-image';
-import 'react-slideshow-image/dist/styles.css'
+import 'react-slideshow-image/dist/styles.css';
 
 
 console.log(nagano)
@@ -20,6 +20,7 @@ function Banner(){
                 images.map((each, index) => <img key={index} style={{width: "100%"}} src={each} alt="images de nagano " className="slideShowImg"/>)
               }
             </Slide>
+           
           </div>
         )
     }

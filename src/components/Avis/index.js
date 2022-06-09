@@ -12,9 +12,9 @@ function Avis() {
       {client.map((avis, index) => (
         <div
           key={index}
-          class="talk-bubble tri-right border round btm-left-in "
+          className="talk-bubble tri-right border round btm-left-in "
         >
-          <div class="talktext">
+          <div className="talktext">
             <p>{avis.textAvis}</p> <p className="date">{avis.date}</p>
           </div>
         </div>
