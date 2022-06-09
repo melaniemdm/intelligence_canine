@@ -7,7 +7,7 @@ function Contact(){
   <h1>Formulaire de contact</h1>
  
   <iframe
-  src="https://tally.so/embed/npbr9y?alignLeft=1&hideTitle=1&transparentBackground=1"
+  src="https://tally.so/embed/wzxY5g?alignLeft=1&hideTitle=1&transparentBackground=1"
   
   frameborder="0"
   marginheight="0"
