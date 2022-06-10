@@ -32,7 +32,7 @@ export default Services;
 
 const activateModal = ()=>{
  
-  const openModal = document.querySelectorAll(".containerOnePresta");
+  const openModal = document.querySelectorAll(".containerOneServices");
   console.log(openModal.length)
   openModal.forEach(modal=>{
    modal.addEventListener("click",openModalPrestation)
