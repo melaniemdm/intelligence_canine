@@ -14,7 +14,7 @@
   padding-top: 70px;
 }
 
-.presta {
+.prestaServices {
   background: white;
   cursor: pointer;
   border-radius: 15px;
@@ -26,7 +26,7 @@
   outline: 1px solid $colorOrange2;
 }
 
-.presta::after {
+.prestaServices::after {
   content: "";
   background: $colorOrange2;
   border-radius: 15px;
@@ -40,17 +40,17 @@
   transition: all 0.3s ease-in;
 }
 
-.content {
+.contentServices {
   position: relative;
   z-index: 1;
   transition: all 0.3s ease-in;
 }
 
-.presta:hover::after {
+.prestaServices:hover::after {
   clip-path: circle(100%);
 }
 
-.presta:hover .content {
+.prestaServices:hover .contentServices {
   color: $colorWhite;
 }
 

@@ -12,7 +12,7 @@ function Services(){
 
 <div className="containerServices">
 
- { nosPrestations.map((prestation,index)=> <div className="presta" key={index}><div className="content" ><div  className='containerOneServices'> 
+ { nosPrestations.map((prestation,index)=> <div className="prestaServices" key={index}><div className="contentServices" ><div  className='containerOneServices'> 
  
  <h2 >{prestation.titlePresta}</h2>
     <p>{prestation.prix}</p>
