@@ -3,7 +3,7 @@ import {nosPrestations} from '../../datas/presta';
 import ModalServices from '../ModalServices';
 import {useEffect} from 'react';
 
-function Prestations(){
+function Services(){
   useEffect(() => {
     activateModal()   
 }) 
@@ -28,7 +28,7 @@ function Prestations(){
 
     </div>)
 }
-export default Prestations;
+export default Services;
 
 const activateModal = ()=>{
  

@@ -3,7 +3,7 @@ export const nosPrestations = [
     id: "1",
     titlePresta: "Education du chiot",
     prix: "sur devis",
-    detail:"Parceque l'éducation se commence dès le plus jeune age, commencer l'éducation chiot permet d'éviter le plus souvent desprobles de comportement par la suite.",
+    detail:"Parceque l'éducation se commence dès le plus jeune age, commencer l'éducation chiot permet d'éviter le plus souvent desprobles de comportement par la",
   },
   {
     id: "2",
