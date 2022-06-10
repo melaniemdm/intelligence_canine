@@ -1,7 +1,7 @@
 import './style.scss';
 import {nosPrestations} from '../../datas/presta';
+import ModalPrestations from '../ModalPrestations';
 
-console.log(nosPrestations)
 
 function Prestations(){
    
@@ -17,7 +17,7 @@ function Prestations(){
  
  
   </div> </div> </div>)}
-
+<ModalPrestations/>
   </div>
  
 
