@@ -1,3 +1,5 @@
+@import '../../styles/communs.scss';
+
 .containerPresentation{
     margin-bottom:30px;
 display: flex;
@@ -5,4 +7,11 @@ justify-content:space-around;
 }
 .titlePresentation{
     margin: 30px;
+}
+
+@media #{$medium-down} {
+    .containerPresentation{
+        margin-top:30px;
+        flex-direction: column;
+    }
 }

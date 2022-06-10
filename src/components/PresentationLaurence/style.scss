@@ -1,3 +1,4 @@
+@import '../../styles/communs.scss';
 
  #photoProfilLaurence{
      width:150px;
@@ -85,4 +86,10 @@ p {
   background-color: #fff;
   border-bottom-left-radius: 8px;
   border-bottom-right-radius: 8px;
+}
+@media #{$medium-down} {
+  #card {
+    width: 350px;
+    
+  }
 }
