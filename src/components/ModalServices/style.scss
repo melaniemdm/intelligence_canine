@@ -1,4 +1,4 @@
-
+@import "../../styles/communs.scss";
 
 .containerModal {
   margin: 0;
@@ -22,11 +22,11 @@
 }
 
 .iconModal {
-  color: royalblue;
+  color: $colorOrange2;
   font-size: 26px;
   font-weight: 700;
-  background: lavender;
-  width: 122px;
+  background: black;
+  width: auto;
   height: 42px;
   padding: 0 8px;
   border-radius: 50%;

@@ -20,7 +20,7 @@ function Services(){
  
   </div> </div> </div>)}
   <div>
-{ nosPrestations.map((services,index)=><ModalServices title={services.titlePresta} detail={services.detail}/>)}
+{ nosPrestations.map((services,index)=><ModalServices key={index} title={services.titlePresta} detail={services.detail}/>)}
   </div></div>
  
 
