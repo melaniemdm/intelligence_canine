@@ -1,6 +1,6 @@
 import './style.scss';
 import {nosPrestations} from '../../datas/presta';
-import ModalPrestations from '../ModalPrestations';
+import ModalServices from '../ModalServices';
 import {useEffect} from 'react';
 
 function Prestations(){
@@ -19,7 +19,7 @@ function Prestations(){
  
  
   </div> </div> </div>)}
-<ModalPrestations/>
+<ModalServices/>
   </div>
  
 
