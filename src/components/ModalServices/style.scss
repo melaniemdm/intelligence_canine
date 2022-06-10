@@ -10,13 +10,18 @@
 }
 
 .modal {
+  display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px 20px;
   background: white;
   width: 480px;
+  height: 180px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
 }
 
-.icon {
+.iconModal {
   color: royalblue;
   font-size: 26px;
   font-weight: 700;
@@ -53,17 +58,12 @@ button {
 }
 
 
-.modal{
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    padding: 10px 20px;
-}
-.content{
+
+.contentModal{
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
-.header{
+.titlePrestaDetail{
     font-weight: 700;
 }

@@ -19,8 +19,9 @@ function Services(){
  
  
   </div> </div> </div>)}
-<ModalServices/>
-  </div>
+  <div>
+{ nosPrestations.map((services,index)=><ModalServices title={services.titlePresta} detail={services.detail}/>)}
+  </div></div>
  
 
 
