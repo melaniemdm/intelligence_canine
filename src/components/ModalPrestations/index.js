@@ -1,5 +1,6 @@
 import './style.scss';
-import {useEffect} from 'react'
+import {useEffect} from 'react';
+
 function ModalPrestations(){
     useEffect(() => {
         activateBtn()   
@@ -36,4 +37,6 @@ closeModal.forEach(modal=>{
 
 function closeModalPrestation(){
     document.querySelector(".containerModal").style.display = "none";  
+
+    console.log(document.querySelector(".containerModal")) 
 }

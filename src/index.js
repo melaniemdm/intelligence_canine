@@ -5,7 +5,7 @@ import ScrollToTop from "react-scroll-to-top";
 import Header from '../src/components/Header';
 import Banner from '../src/components/Banner';
 import Presentation from '../src/components/Presentation';
-import Prestations from '../src/components/Prestations';
+import Services from '../src/components/Services';
 import Pro from '../src/components/Pro';
 import Particulier from '../src/components/Particuliers';
 import Avis from '../src/components/Avis';
@@ -21,7 +21,7 @@ root.render(
   <Header/>
   <Banner/>
  <Presentation/>
-  <Prestations/>
+  <Services/>
   <Pro/>
   <Particulier/>
   <Avis/>

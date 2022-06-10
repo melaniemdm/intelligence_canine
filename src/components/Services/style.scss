@@ -1,11 +1,11 @@
 @import "../../styles/communs.scss";
-.containerGlobal {
+.containerGlobalServices {
   height: auto;
   display: flex;
   flex-direction: column;
 }
 
-.containerPrestations {
+.containerServices {
     display: flex;
   justify-content: space-around;
   flex-wrap: wrap;

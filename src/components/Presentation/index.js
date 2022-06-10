@@ -2,11 +2,12 @@ import PresentationNag from '../PresentationNag';
 import PresentationLaurence from '../PresentationLaurence';
 import './style.scss';
 
-function Presentation(){
 
+function Presentation(){
+  
     return (<div>
         <h1 className="titlePresentation">Présentation</h1>
-<div className="containerPresentation"><PresentationNag/>
+<div className="containerPresentations"><PresentationNag/>
   <PresentationLaurence/>
   </div> 
 
@@ -14,3 +15,4 @@ function Presentation(){
     </div>)
 }
 export default Presentation;
+
