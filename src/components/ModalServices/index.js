@@ -6,7 +6,7 @@ function ModalPrestations(props){
         activateBtn()   
     }) 
     return(
-        <div className="containerModal">
+        <div className={"containerModal service_"+ props.idService}>
 <div className="modal">
     <div className="iconModal">!</div>
     <div className="contentModal">
@@ -36,7 +36,7 @@ closeModal.forEach(modal=>{
 
 
 function closeModalPrestation(){
-    document.querySelector(".containerModal").style.display = "none";  
-
-    console.log(document.querySelector(".containerModal")) 
+    const closeModal = document.querySelectorAll(".containerModal");  
+    closeModal.forEach(modal=>modal.style.display="none")
+   
 }

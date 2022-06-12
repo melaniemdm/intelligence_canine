@@ -12,7 +12,7 @@ function Services(){
 
 <div className="containerServices">
 
- { nosPrestations.map((prestation,index)=> <div className="prestaServices" key={index}><div className="contentServices" ><div  className='containerOneServices'> 
+ { nosPrestations.map((prestation,index)=> <div className="prestaServices" key={index} id={"service_"+ prestation.idService}><div className="contentServices" ><div  className='containerOneServices'> 
  
  <h2 >{prestation.titlePresta}</h2>
     <p>{prestation.prix}</p>
@@ -20,7 +20,7 @@ function Services(){
  
   </div> </div> </div>)}
   <div>
-{ nosPrestations.map((services,index)=><ModalServices key={index} title={services.titlePresta} detail={services.detail}/>)}
+{ nosPrestations.map((services,index)=><ModalServices key={index} title={services.titlePresta} detail={services.detail} idService={services.idService}/>)}
   </div></div>
  
 
@@ -33,7 +33,7 @@ export default Services;
 
 const activateModal = ()=>{
  
-  const openModal = document.querySelectorAll(".containerOneServices");
+  const openModal = document.querySelectorAll(".prestaServices");
   console.log(openModal.length)
   openModal.forEach(modal=>{
    modal.addEventListener("click",openModalPrestation)
@@ -41,8 +41,9 @@ const activateModal = ()=>{
 }
 
 
-function openModalPrestation(){
-   document.querySelector(".containerModal").style.display = "flex"; 
-   console.log(document.querySelector(".containerModal")) 
-   console.log("toto")
+function openModalPrestation(e){ 
+  const closeModal = document.querySelectorAll(".containerModal");  
+  closeModal.forEach(modal=>modal.style.display="none")
+   document.querySelector('.'+ e.currentTarget.id ).style.display = "flex"; 
+  
 }
