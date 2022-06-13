@@ -1,7 +1,7 @@
 import ImageGallery from 'react-image-gallery';
 
 
-const images = [
+const PicturesGallery = [
     {
       original: 'https://picsum.photos/id/1018/1000/600/',
       thumbnail: 'https://picsum.photos/id/1018/250/150/',
@@ -18,7 +18,7 @@ const images = [
   
   function Gallery() {
     return( <div>
-      return <ImageGallery items={images} />;</div>
+      return <ImageGallery items={PicturesGallery} />;</div>
     )
   }
   export default Gallery;

@@ -7,22 +7,18 @@ import Particulier from "../../components/Particuliers";
 import Avis from "../../components/Avis";
 import Contact from "../../components/Contact";
 
-
-
-function Accueil(){
-    return (<div>
-
-<Banner />
-        <Presentation />
-        <Services />
-        <Pro />
-        <Particulier />
-        <Avis />
-        <Contact />
-      
-        <ScrollToTop />
-
-
-    </div>);
+function Accueil() {
+  return (
+    <div>
+      <Banner />
+      <Presentation />
+      <Services />
+      <Pro />
+      <Particulier />
+      <Avis />
+      <Contact />
+      <ScrollToTop />
+    </div>
+  );
 }
 export default Accueil;

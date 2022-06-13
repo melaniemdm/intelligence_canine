@@ -8,11 +8,11 @@ function Navigate(){
 <div className="container black circleBehind">
 
 <nav className="navigate">
-      <Link to="/accueil" className="accueil">Accueil</Link> 
+      <Link to="/accueil" className="accueil">ACCUEIL</Link> 
       <Link to="/accueil#services" className="services">SERVICES</Link>
       <Link to="/accueil#pro" className="pro">PROFESSIONNELS</Link>
       <Link to="/accueil#particuliers" className="particuliers">PARTICULIERS</Link>
-      <Link to="/gallery" className="gallery">Gallery</Link>
+      <Link to="/gallery" className="gallery">GALLERY</Link>
       <Link to="/accueil#contactMe" className="contact">CONTACT</Link>
     </nav>
 
