@@ -18,7 +18,7 @@ function BannerParticuliers(){
               <h1 className="titleTrustPart">Ils m'ont fait confiance ! </h1>
             <Zoom    duration={1000} transitionDuration={3000}  cssClass='slideShow'  arrows={false} >
               {
-                images.map((each, index) => <img key={index} style={{width: "100%"}} src={each} alt="images des élèves " className="slideShowImgPart"/>)
+                images.map((each, index) => <img key={index} style={{width: "100%"}} src={process.env.PUBLIC_URL +'/'+ each} alt="images des élèves " className="slideShowImgPart"/>)
               }
             </Zoom>
           </div>
