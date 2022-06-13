@@ -1,33 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './styles/index.scss';
-import ScrollToTop from "react-scroll-to-top";
-import Header from '../src/components/Header';
-import Banner from '../src/components/Banner';
-import Presentation from '../src/components/Presentation';
-import Services from '../src/components/Services';
-import Pro from '../src/components/Pro';
-import Particulier from '../src/components/Particuliers';
-import Avis from '../src/components/Avis';
-import Contact from '../src/components/Contact';
-import Footer from '../src/components/Footer';
+import Routes from '../src/Routes';
 import reportWebVitals from './reportWebVitals';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <div>
-  <Header/>
-  <Banner/>
- <Presentation/>
-  <Services/>
-  <Pro/>
-  <Particulier/>
-  <Avis/>
-  <Contact/>
-  <Footer/>
- <ScrollToTop /></div>
+  <Routes/>
    </React.StrictMode>
 );
 
