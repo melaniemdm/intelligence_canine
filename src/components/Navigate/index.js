@@ -9,6 +9,7 @@ function Navigate(){
   <a href="#services">SERVICES</a>
   <a href="#pro">PROFESSIONNELS</a>
   <a href="#particuliers">PARTICULIERS</a>
+  <a href="# ">GALLERY</a>
   <a href="#contactMe">CONTACT</a>
 </div>
 
