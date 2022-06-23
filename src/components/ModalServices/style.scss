@@ -66,3 +66,13 @@ z-index: 100;
 .titlePrestaDetail{
     font-weight: 700;
 }
+@media #{$medium-down} {
+  .modal {
+   width: 350px;
+   height: auto;
+   background: $colorOrange2;
+   }
+  .containerModal{
+    margin-top:-500px;
+  }
+  }
