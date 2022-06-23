@@ -11,7 +11,7 @@ function PresentationLaurence(){
     </div>
     <div id="card-id">
       <div id="card-number">
-        <p className="cardtitle">Carte nationale d'identité </p>
+        <p className="cardtitle"> </p>
        
       </div>
       
