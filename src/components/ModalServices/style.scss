@@ -10,6 +10,7 @@
 }
 
 .modal {
+z-index: 100;
   display: flex;
     justify-content: center;
     gap: 20px;
@@ -19,6 +20,7 @@
   height: 180px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  margin-top: -250px;
 }
 
 .iconModal {
