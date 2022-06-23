@@ -1,5 +1,25 @@
-.containerGallery{
-      display: flex;
-    justify-content: center;
-    margin-bottom:100px;
+@import '../../styles/communs.scss';
+
+
+    .videoDog, .imgDog{
+    
+           object-fit: contain;
+      height:700px;
     }
+    .containerGallery{
+    background: linear-gradient($colorOrange2,black);  
+     padding-top:10px;
+     padding-bottom:10px;
+    }
+    @media #{$medium-down} {
+   
+      .videoDog, .imgDog{
+       width:300px;
+        height:400px;
+      }
+
+      .containerGallery{
+       padding-top:30px;
+       padding-bottom:30px;
+      }
+      }
