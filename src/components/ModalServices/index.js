@@ -8,7 +8,8 @@ function ModalPrestations(props){
     return(
         <div className={"containerModal service_"+ props.idService}>
 <div className="modal">
-    <div className="iconModal">!</div>
+    <div className="containerIconModal">
+    <div className="iconModal">!</div></div>
     <div className="contentModal">
       <div className="titlePrestaDetail">{props.title}</div>
       <div className="text">{props.detail}</div>
