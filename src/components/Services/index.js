@@ -19,11 +19,14 @@ function Services(){
  
  
   </div> </div> </div>)}
+
+  
+  
+  </div>
+ 
   <div>
 { nosPrestations.map((services,index)=><ModalServices key={index} title={services.titlePresta} detail={services.detail} idService={services.idService}/>)}
-  </div></div>
- 
-
+  </div>
 
 
 
