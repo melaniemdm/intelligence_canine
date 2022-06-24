@@ -26,7 +26,7 @@ const Gallery = () => {
         if (picture.original.includes("mp4")){
       //video
       return <Carousel.Item>
-      <video className='videoDog' controls autoplay="true">
+      <video className='videoDog' controls autoplay="false">
         <source  height="100%" src={picture.original}
         type="video/mp4" />
         Sorry, your browser doesn't support embedded videos.

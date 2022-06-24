@@ -27,5 +27,12 @@ export const picturesGallery = [
     idPictures: "7",
     original: process.env.PUBLIC_URL + "/assets/ryo.jpg",
   },
-  
+  {
+    idPictures: "8",
+    original: process.env.PUBLIC_URL + "/assets/tataNag.mp4",
+  },
+  {
+    idPictures: "9",
+    original: process.env.PUBLIC_URL + "/assets/movi.mp4",
+  },
 ];
