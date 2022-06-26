@@ -6,9 +6,9 @@ console.log(avisClient);
 function Avis() {
   const client = avisClient;
   return (
-   <div>
+   <div className="containerAvis">
         <h1 className="titleAvis">Ma meilleure Pub c'est vous !</h1>
-       <div className="containerAvis"> 
+       <div className="cardAvis"> 
       {client.map((avis, index) => (
         <div
           key={index}
@@ -20,7 +20,15 @@ function Avis() {
         </div>
       )
       )}
-    </div></div>
+     
+
+    </div>
+    <div className="containerLienAvis"><a href="https://www.facebook.com/Intelligencecanine">
+     <div className="infoSupp">Retrouvez plus d'avis sur ma page Facebook......</div>
+
+       </a></div>
+    
+    </div>
   );
 }
 export default Avis;
