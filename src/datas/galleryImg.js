@@ -11,11 +11,7 @@ export const picturesGallery = [
     idPictures: "3",
     original: process.env.PUBLIC_URL + "/assets/nagEntretien.jpg",
   },
-  {
-    idPictures: "4",
-    original: process.env.PUBLIC_URL + "/assets/test.mp4",
-  },
-  {
+   {
     idPictures: "5",
     original: process.env.PUBLIC_URL + "/assets/ranger.jpg",
   },
@@ -27,12 +23,5 @@ export const picturesGallery = [
     idPictures: "7",
     original: process.env.PUBLIC_URL + "/assets/ryo.jpg",
   },
-  {
-    idPictures: "8",
-    original: process.env.PUBLIC_URL + "/assets/tataNag.mp4",
-  },
-  {
-    idPictures: "9",
-    original: process.env.PUBLIC_URL + "/assets/movi.mp4",
-  },
+  
 ];
