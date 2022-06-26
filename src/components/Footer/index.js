@@ -1,5 +1,5 @@
 import logo from '../../assets/logo.png';
-
+import { HashLink as Link } from 'react-router-hash-link'
 import './style.scss';
 
 function Footer(){
@@ -11,11 +11,12 @@ function Footer(){
 </div>
 
 <div className="containerNavFooter"><div className="container teal borderYtoX">
-<a href="#home">HOME</a>
-  <a href="#services">SERVICES</a>
-  <a href="#pro">PROFESSIONNELS</a>
-  <a href="#particuliers">PARTICULIERS</a>
-  <a href="#contactMe">Me contacter</a>
+<Link to="/accueil#ancreHeader" className="accueil">ACCUEIL</Link> 
+      <Link to="/accueil#services" className="services">SERVICES</Link>
+      <Link to="/accueil#pro" className="pro">PROFESSIONNELS</Link>
+      <Link to="/accueil#particuliers" className="particuliers">PARTICULIERS</Link>
+      <Link to="/gallery" className="gallery">GALLERY</Link>
+      <Link to="/accueil#contactMe" className="contact">CONTACT</Link>
 </div>
 <div className="textFooter">
 <a href="https://www.facebook.com/Intelligencecanine">
