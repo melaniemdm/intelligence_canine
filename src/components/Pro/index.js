@@ -15,9 +15,10 @@ function Pro() {
 
  { proTrust.map(((pro,index)=> <div className="trust" key={index}><div className="content" ><div  className='containerOnePresta'> 
  
- <h2 >{pro.namePro}</h2>
-    
- 
+ <div className="namePro">{pro.namePro}</div><br></br>
+  <div className="villePro"> {pro.ville} </div> <br></br>
+  
+  <div className="detailPro"> {pro.détail}  </div>
  
   </div> </div> </div>))}
 
