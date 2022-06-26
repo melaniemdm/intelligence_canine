@@ -31,7 +31,7 @@ function PresentationLaurence(){
         <p>Tata</p>
         <div className="card-box"></div>
         <p className="cardtitle">Profession :</p>
-        <p>Apprentie Educteur Canin</p>
+        <p>Educateur canin - Comportementaliste</p>
       </div>
       <div id="card-detail">
             
