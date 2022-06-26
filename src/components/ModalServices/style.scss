@@ -2,11 +2,11 @@
 
 .containerModal {
   position: relative;
- outline: 2px solid green;
+ //outline: 2px solid green;
  // margin: 0;
   color: #333;
   /* I'll give you this one for free lol */
-  display: flex;
+  display: none;
  
 }
 
@@ -27,13 +27,13 @@ z-index: 100;
  }
 
 .containerIconModal{
-  outline: 2px solid green;
+ // outline: 2px solid green;
   width: 80px;
   height: 42px;
   margin-right: 5px;
 }
 .iconModal {
-  outline: 2px solid green;
+  //outline: 2px solid green;
   color: $colorOrange2;
   font-size: 26px;
   font-weight: 900;
