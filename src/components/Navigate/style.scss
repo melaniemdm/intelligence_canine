@@ -1,6 +1,10 @@
 @import '../../styles/communs.scss';
 @import 'https://fonts.googleapis.com/css?family=Raleway';
-
+.navigate{
+    display: flex;
+  flex-wrap: wrap;
+  
+}
 
 div.container
 {
@@ -24,11 +28,16 @@ div.container a
 {
     background: black;
 }
-
+.navItem {
+ 
+ width:auto;
+ min-width: 150px;
+}
 
 /* Circle behind */
 div.circleBehind a:before, div.circleBehind a:after
 {
+   
     position: absolute;
     top: 22px;
     left: 50%;
@@ -63,15 +72,30 @@ div.circleBehind a:hover:after
 }
 @media #{$medium-down} {
     div.container
-    {
+    { 
+         
+         height: 100%;
        padding: 0;
        display: flex;
        flex-direction: column;
-     margin-top: 10px; 
+ 
     }
     .navigate{
-        display: flex;
+      
         flex-direction: column;
         font-size:10px;
+        height:100%;
+        justify-content:center;
+        align-items:center;
     }
+
+    /* Circle behind */
+div.circleBehind a:before, div.circleBehind a:after
+{ top: 18px;
+   
+    width: 20px;
+    height: 20px;
+    border: 2px solid $colorOrange2;
+    transform: translateX(-50%) translateY(-50%) scale(0.8);
+}
 }
