@@ -20,8 +20,9 @@
 }
 .containerHeader {
   display: flex;
-  justify-content: space-between;
-  background-color: $colorBlack;
+  justify-content: space-around;
+   background-color: $colorBlack;
+   flex-wrap: wrap;
 }
 .containerStickers {
   text-align: center;
@@ -72,4 +73,7 @@
   .garantie {
     margin-top: 20px;
   }
+  
+  
 }
+
