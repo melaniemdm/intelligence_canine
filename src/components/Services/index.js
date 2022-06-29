@@ -14,7 +14,7 @@ function Services(){
 
  { nosPrestations.map((prestation,index)=> <div className="prestaServices" key={index} id={"service_"+ prestation.idService}><div className="contentServices" ><div  className='containerOneServices'> 
  
- <h2 >{prestation.titlePresta}</h2>
+ <h2 className="titlePrestation">{prestation.titlePresta}</h2>
     <p>{prestation.prix}</p>
  
  
