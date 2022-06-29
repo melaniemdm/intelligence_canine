@@ -1,5 +1,6 @@
 import PresentationNag from '../PresentationNag';
 import PresentationLaurence from '../PresentationLaurence';
+import Binome from '../Binome';
 import './style.scss';
 
 
@@ -11,7 +12,7 @@ function Presentation(){
   <PresentationLaurence/>
   </div> 
 
-
+<Binome/>
     </div>)
 }
 export default Presentation;

@@ -1,0 +1,62 @@
+@import "../../styles/communs.scss";
+
+.containerGlobalBinome {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+
+.containerBinome {
+    display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 5px;
+  padding-top: 70px;
+}
+
+.binome {
+  background: white;
+  cursor: pointer;
+  border-radius: 15px;
+  position: relative;
+  padding: 25px 30px;
+  color: var($colorOrange2);
+  height: auto;
+  width: auto;
+  outline: 1px solid $colorOrange2;
+}
+
+.binome::after {
+  content: "";
+  background: $colorOrange2;
+  border-radius: 15px;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 0;
+  clip-path: circle(10% at 0% 0%);
+  transition: all 0.3s ease-in;
+}
+
+.contentBinome {
+  position: relative;
+  z-index: 1;
+  transition: all 0.3s ease-in;
+}
+
+.binome:hover::after {
+  clip-path: circle(100%);
+}
+
+.binome:hover .contentBinome {
+  color: $colorWhite;
+}
+
+.txtPres{
+  font-size:18px;
+ 
+}
