@@ -18,10 +18,6 @@ function ModalPrestations(props){
     <div className="close-button">  ✖  </div>
     
   </div>
-
-
-
-
         </div>
     )
 }
@@ -32,7 +28,11 @@ const activateBtn = ()=>{
    const closeModal = document.querySelectorAll(".close-button");
 closeModal.forEach(modal=>{
     modal.addEventListener("click",closeModalPrestation)
+    
 }) 
+const clickOutCloseModal = document.querySelectorAll(".containerModal");  
+clickOutCloseModal.forEach(out=>out.addEventListener("click",closeModalPrestation))
+
 }
 
 
@@ -41,3 +41,4 @@ function closeModalPrestation(){
     closeModal.forEach(modal=>modal.style.display="none")
    
 }
+
