@@ -3,7 +3,9 @@ export const nosPrestations = [
     idService: "1",
     titlePresta: "Éducation du chiot et du jeune chien ",
     prix: "sur devis",
-    detail:"Parce que l'éducation se commence dès le plus jeune age, commencer l'éducation chiot permet d'éviter le plus souvent des problemes de comportement. ",
+    detail:["Parce que l'éducation se commence dès le plus jeune âge, débuter  l'éducation de votre chiot sur de bonnes bases permet d'éviter le plus souvent des problèmes de communication et de comportement.",<br></br>,
+    "En effet , l’arrivée d’un compagnon canin peut être déroutant, faire appel à un éducateur dès son plus jeune âge est un très bon réflexe. ",<br></br>,
+   "Je vous apprendrez à avoir les bonnes attitudes et surtout à communiquer correctement afin d’avoir une harmonieuse avec votre loulou.",]
   },
   {
     idService: "2",
