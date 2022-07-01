@@ -13,14 +13,26 @@ function Pro() {
 
 <div className="containerNamePro">
 
- { proTrust.map(((pro,index)=> <div className="trust" key={index}><div className="content" ><div  className='containerOnePresta'> 
+ { proTrust.map(((pro,index)=> {if(pro.picturePro){ return <div className="trust" key={index}><div className="content" ><div  className='containerOnePresta'> 
  
  <div className="namePro">{pro.namePro}</div><br></br>
   <div className="villePro"> {pro.ville} </div> <br></br>
   
   <div className="detailPro"> {pro.détail}  </div>
   <div className="logoPro"> <img src={pro.picturePro} alt='picturePro'/>  </div>
-  </div> </div> </div>))}
+  </div> </div> </div>}
+else{
+  return <div className="trust" key={index}><div className="content" ><div  className='containerOnePresta'> 
+ 
+  <div className="namePro">{pro.namePro}</div><br></br>
+   <div className="villePro"> {pro.ville} </div> <br></br>
+   
+   <div className="detailPro"> {pro.détail}  </div>
+  
+   </div> </div> </div>
+}
+
+}))}
 
  
   </div>
