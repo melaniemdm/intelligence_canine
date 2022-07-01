@@ -7,9 +7,15 @@ export const nosPrestations = [
   },
   {
     idService: "2",
-    titlePresta: "rééducation du chien adulte et troubles de comportement ",
+    titlePresta: "Rééducation du chien adulte et troubles de comportement ",
     prix: "Programme personnalisé ",
-    detail:"Cette formation s'adresseaux personnes qui se sentent débordées et qui souahaitent améliorer leur relation avec leur animal.",
+    detail:["Les problèmes de comportement type fugue, destruction, hyper-attachement, aboiements intempestifs, peur, agressivité, etc. ont des causes que je vous aiderai à identifier et pour lesquels je vous apporterai des solutions durables.",<br></br>,
+    "Ma méthode de travail est basée sur l’éthologie canine.",<br></br>,
+    "Je m’adapte à chaque chien en fonction de sa race et donc de ses aptitudes naturelles mais également en fonction de son âge et de son état de santé physique et psychologique. ",<br></br>,
+    "Je travaille en collaboration avec une ostéopathe ce qui me permet d’avoir une vision médicale du chien que j’éduque.", <br></br>,
+    "Chaque chien est unique même s'il existe des similitudes au sein d'une race.", <br></br>,
+    "J’analyse , je prends en main votre chien et je vous explique. Mon but est de gagner la confiance de votre chien de manière à obtenir sa coopération en faisant appel à son intelligence d’où mon nom intelligence canine. ",<br></br>,
+    "Le respect de  son intégrité physique et psychologique m’importe avant tout . Soyez en certains ♥️🐾🐾",]
   },
   {
     idService: "3",
