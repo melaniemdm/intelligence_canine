@@ -25,4 +25,16 @@ export const  proTrust= [
     namePro: "Sweet Braveheart Melody",
   ville:'Maraye-en-Othe'
   },
+  {
+    id: "6",
+  namePro: "Retriever club",
+  picturePro: process.env.PUBLIC_URL +'/assets/retrieverChamp.jpg',
+  ville:'Champagne Ardenne'
+  },
+  {
+    id: "7",
+    namePro: "Amélie Gardelle",
+    picturePro: process.env.PUBLIC_URL +'/assets/amelieOsteo.jpg',
+  ville:'Lésigny'
+  },
 ];
