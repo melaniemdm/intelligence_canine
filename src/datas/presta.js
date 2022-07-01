@@ -77,7 +77,10 @@ export const nosPrestations = [
     idService: "6",
     titlePresta: "Conférence sur l’éthologie canine , la place du chien au sein de notre foyer ",
     prix: "sur devis",
-    detail:"Stage : communication canine et technique de relaxation martiale",
+    detail:["Deux thématiques:", <br></br>,
+    "- la conférence" ,<br></br>,
+    "- stage communication canine",]
+    
   },
   {
     idService: "7",
