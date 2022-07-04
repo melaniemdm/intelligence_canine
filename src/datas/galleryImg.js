@@ -215,5 +215,88 @@ export const picturesGallery = [
     idPictures: "54",
     original: process.env.PUBLIC_URL + "/assets/kiss14.jpeg",
   },
-
+  {
+    idPictures: "55",
+    original: process.env.PUBLIC_URL + "/assets/kiss15.jpeg",
+  },
+  {
+    idPictures: "56",
+    original: process.env.PUBLIC_URL + "/assets/cours21.jpeg",
+  },
+  {
+    idPictures: "57",
+    original: process.env.PUBLIC_URL + "/assets/eyes.jpeg",
+  },
+  {
+    idPictures: "58",
+    original: process.env.PUBLIC_URL + "/assets/cours22.jpeg",
+  },
+  {
+    idPictures: "59",
+    original: process.env.PUBLIC_URL + "/assets/eyes2.jpeg",
+  },
+  {
+    idPictures: "60",
+    original: process.env.PUBLIC_URL + "/assets/kiss16.jpeg",
+  },
+  {
+    idPictures: "61",
+    original: process.env.PUBLIC_URL + "/assets/cours23.jpeg",
+  },
+  {
+    idPictures: "62",
+    original: process.env.PUBLIC_URL + "/assets/cours24.jpeg",
+  },
+  {
+    idPictures: "63",
+    original: process.env.PUBLIC_URL + "/assets/cours25.jpeg",
+  },
+  {
+    idPictures: "64",
+    original: process.env.PUBLIC_URL + "/assets/cours26.jpeg",
+  },
+  {
+    idPictures: "65",
+    original: process.env.PUBLIC_URL + "/assets/cours27.jpeg",
+  },
+  {
+    idPictures: "66",
+    original: process.env.PUBLIC_URL + "/assets/cours28.jpeg",
+  },
+  {
+    idPictures: "67",
+    original: process.env.PUBLIC_URL + "/assets/cours29.jpeg",
+  },
+  {
+    idPictures: "68",
+    original: process.env.PUBLIC_URL + "/assets/cours30.jpeg",
+  },
+  {
+    idPictures: "69",
+    original: process.env.PUBLIC_URL + "/assets/cours31.jpeg",
+  },
+  {
+    idPictures: "70",
+    original: process.env.PUBLIC_URL + "/assets/cours32.jpeg",
+  },
+  {
+    idPictures: "71",
+    original: process.env.PUBLIC_URL + "/assets/cours33.jpeg",
+  },
+  {
+    idPictures: "72",
+    original: process.env.PUBLIC_URL + "/assets/cours34.jpeg",
+  },
+  {
+    idPictures: "73",
+    original: process.env.PUBLIC_URL + "/assets/cours35.jpeg",
+  },
+  {
+    idPictures: "74",
+    original: process.env.PUBLIC_URL + "/assets/cours36.jpeg",
+  },
+  {
+    idPictures: "75",
+    original: process.env.PUBLIC_URL + "/assets/cours37.jpeg",
+  },
 ];
