@@ -76,10 +76,11 @@ export const nosPrestations = [
   {
     idService: "6",
     titlePresta: "Conférence sur l’éthologie canine , la place du chien au sein de notre foyer ",
-    prix: "sur devis",
+    prix: ["Tarif selon la thématique et pré inscription obligatoire,", <br></br>,
+    "Infos sur page Facebook"],
     detail:["Deux thématiques:", <br></br>,
-    "- la conférence" ,<br></br>,
-    "- stage communication canine",]
+    "- Conférence sur l’éthologie canine , la place du chien au sein de notre foyer" ,<br></br>,
+    "- stage communication canine en collaboration avec un maître expert en art martial qui vous enseignera des techniques de relaxation",]
     
   },
   {
@@ -92,12 +93,24 @@ export const nosPrestations = [
     idService: "8",
     titlePresta: "Prestations audios ",
     prix: "sur devis",
-    detail:" ",
+    detail:["Parce que l'éducation se commence dès le plus jeune âge, débuter  l'éducation de votre chiot sur de bonnes bases permet d'éviter le plus souvent des problèmes de communication et de comportement.",<br></br>,
+    "En effet , l’arrivée d’un compagnon canin peut être déroutant, faire appel à un éducateur dès son plus jeune âge est un très bon réflexe.", <br></br>,
+    "Je vous apprendrez à avoir les bonnes attitudes et surtout à communiquer correctement afin d’avoir une harmonieuse avec votre loulou.",<br></br>,
+    
+    "Dans cette formule je vous propose un accompagnement privilégié . En effet, je suis joignable par téléphone, mail entre les séances pour répondre à toutes vos questions, je mets à votre disposition des supports écrits pour vous permettre d'assimiler rapidement les idées essentielles et je peux également réaliser des vidéos de travail pour vous expliquer visuellement des exercices à distance ou vous corriger et conseiller sur les vidéos que vous me transmettez ."],
   },
   {
     idService: "9",
     titlePresta: "Déplacement en province",
     prix: "sur devis",
-    detail:" ",
+    detail:["Intelligence canine : une éducation canine intelligente et réfléchie",<br></br>,
+
+    "Quelle que soit sa race, son gabarit, son âge, son tempérament, le chien est capable de vite nous cerner, de percevoir notre humeur, notre caractère et de s'adapter en fonction, de manière bien plus efficace que nous sommes en mesure de le faire à son égard.",<br></br>,
+     
+    "Il en résulte des 'malentendus' entre lui et l'humain pouvant déboucher sur des désagréments, voire des conflits : on ne comprend plus son chien et lui ne comprend pas nos attentes puisque nous ne parlons pas le même langage. ",<br></br>,
+     
+    "Je vais vous apprendre à communiquer avec votre compagnon à 4 pattes pour construire, développer ou rétablir une relation harmonieuse dans la durée.", <br></br>,
+    
+    "Quelque soit la problématique rencontrée je viendrais à votre rencontre"],
   },
 ];
