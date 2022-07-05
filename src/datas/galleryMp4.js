@@ -1,9 +1,6 @@
 export const videosGallery = [
  
-  {
-    idPictures: "1",
-    original: process.env.PUBLIC_URL + "/assets/test.mp4",
-  },
+ 
   {
     idPictures: "2",
     original: process.env.PUBLIC_URL + "/assets/tataNag.mp4",
