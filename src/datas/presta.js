@@ -75,9 +75,9 @@ export const nosPrestations = [
   },
   {
     idService: "6",
-    titlePresta: "Conférence sur l’éthologie canine , la place du chien au sein de notre foyer ",
-    prix: ["Tarif selon la thématique et pré inscription obligatoire,", <br></br>,
-    "Infos sur page Facebook"],
+    titlePresta: ["-Conférence : sur l’éthologie canine  ",<br></br>,
+   " - stage de communication canine"],
+    prix: "sur devis",
     detail:["Deux thématiques:", <br></br>,
     "- Conférence sur l’éthologie canine , la place du chien au sein de notre foyer" ,<br></br>,
     "- stage communication canine en collaboration avec un maître expert en art martial qui vous enseignera des techniques de relaxation",]
@@ -85,8 +85,9 @@ export const nosPrestations = [
   },
   {
     idService: "7",
-    titlePresta: "Balade éducative, énigmatique et très ludique selon les délires de votre serviteur ",
-    prix: "sur devis",
+    titlePresta: "Balade éducative, énigmatique & très ludique selon les délires de votre serviteur ",
+    prix: ["Tarif selon la thématique et pré inscription obligatoire,", <br></br>,
+    "Infos sur page Facebook"],
     detail:" ",
   },
   {
@@ -97,7 +98,7 @@ export const nosPrestations = [
     "En effet , l’arrivée d’un compagnon canin peut être déroutant, faire appel à un éducateur dès son plus jeune âge est un très bon réflexe.", <br></br>,
     "Je vous apprendrez à avoir les bonnes attitudes et surtout à communiquer correctement afin d’avoir une harmonieuse avec votre loulou.",<br></br>,
     
-    "Dans cette formule je vous propose un accompagnement privilégié . En effet, je suis joignable par téléphone, mail entre les séances pour répondre à toutes vos questions, je mets à votre disposition des supports écrits pour vous permettre d'assimiler rapidement les idées essentielles et je peux également réaliser des vidéos de travail pour vous expliquer visuellement des exercices à distance ou vous corriger et conseiller sur les vidéos que vous me transmettez ."],
+    "Dans cette formule je vous propose un accompagnement privilégié . En effet, je suis joignable par téléphone, mail entre les séances pour répondre à toutes vos questions."],
   },
   {
     idService: "9",
