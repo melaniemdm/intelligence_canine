@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/intelligence_canine/static/css/main.47d5f5c2.css",
-    "main.js": "/intelligence_canine/static/js/main.7362c47a.js",
+    "main.css": "/intelligence_canine/static/css/main.a68ba06c.css",
+    "main.js": "/intelligence_canine/static/js/main.fc8e69a2.js",
     "static/js/842.01238524.chunk.js": "/intelligence_canine/static/js/842.01238524.chunk.js",
     "static/media/logo.png": "/intelligence_canine/static/media/logo.5d46dd4d3cd9df735448.png",
     "index.html": "/intelligence_canine/index.html",
-    "main.47d5f5c2.css.map": "/intelligence_canine/static/css/main.47d5f5c2.css.map",
-    "main.7362c47a.js.map": "/intelligence_canine/static/js/main.7362c47a.js.map",
+    "main.a68ba06c.css.map": "/intelligence_canine/static/css/main.a68ba06c.css.map",
+    "main.fc8e69a2.js.map": "/intelligence_canine/static/js/main.fc8e69a2.js.map",
     "842.01238524.chunk.js.map": "/intelligence_canine/static/js/842.01238524.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.47d5f5c2.css",
-    "static/js/main.7362c47a.js"
+    "static/css/main.a68ba06c.css",
+    "static/js/main.fc8e69a2.js"
   ]
 }
