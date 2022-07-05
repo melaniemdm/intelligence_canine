@@ -1,31 +1,31 @@
 export const picturesGallery = [
   {
     idPictures: "1",
-    original: process.env.PUBLIC_URL + "/assets/apache.jpg",
+    original: process.env.PUBLIC_URL + "/assets/apache.jpeg",
   },
   {
     idPictures: "2",
-    original: process.env.PUBLIC_URL + "/assets/hoppy.jpg",
+    original: process.env.PUBLIC_URL + "/assets/hoppy.jpeg",
   },
     {
     idPictures: "3",
-    original: process.env.PUBLIC_URL + "/assets/nagEntretien.jpg",
+    original: process.env.PUBLIC_URL + "/assets/nagEntretien.jpeg",
   },
   {
     idPictures: "4",
-    original: process.env.PUBLIC_URL + "/assets/simone.jpg",
+    original: process.env.PUBLIC_URL + "/assets/simone.jpeg",
   },
    {
     idPictures: "5",
-    original: process.env.PUBLIC_URL + "/assets/ranger.jpg",
+    original: process.env.PUBLIC_URL + "/assets/ranger.jpeg",
   },
   {
     idPictures: "6",
-    original: process.env.PUBLIC_URL + "/assets/rolex.jpg",
+    original: process.env.PUBLIC_URL + "/assets/rolex.jpeg",
   },
   {
     idPictures: "7",
-    original: process.env.PUBLIC_URL + "/assets/ryo.jpg",
+    original: process.env.PUBLIC_URL + "/assets/ryo.jpeg",
   },
    {
     idPictures: "8",
@@ -41,7 +41,7 @@ export const picturesGallery = [
   },
   {
     idPictures: "11",
-    original: process.env.PUBLIC_URL + "/assets/kiss.jpeg",
+    original: process.env.PUBLIC_URL + "/assets/kiss1.jpeg",
   },
   {
     idPictures: "12",
@@ -87,10 +87,7 @@ export const picturesGallery = [
     idPictures: "22",
     original: process.env.PUBLIC_URL + "/assets/cours3.jpeg",
   },
-  {
-    idPictures: "23",
-    original: process.env.PUBLIC_URL + "/assets/kiss4.jpeg",
-  },
+  
   {
     idPictures: "24",
     original: process.env.PUBLIC_URL + "/assets/cours4.jpeg",
@@ -130,6 +127,10 @@ export const picturesGallery = [
   {
     idPictures: "33",
     original: process.env.PUBLIC_URL + "/assets/cours8.jpeg",
+  },
+  {
+    idPictures: "107",
+    original: process.env.PUBLIC_URL + "/assets/cours9.jpeg",
   },
   {
     idPictures: "34",
@@ -299,4 +300,130 @@ export const picturesGallery = [
     idPictures: "75",
     original: process.env.PUBLIC_URL + "/assets/cours37.jpeg",
   },
+  {
+    idPictures: "76",
+    original: process.env.PUBLIC_URL + "/assets/cours38.jpeg",
+  },
+  {
+    idPictures: "77",
+    original: process.env.PUBLIC_URL + "/assets/cours39.jpeg",
+  },
+  {
+    idPictures: "78",
+    original: process.env.PUBLIC_URL + "/assets/cours40.jpeg",
+  },
+  {
+    idPictures: "79",
+    original: process.env.PUBLIC_URL + "/assets/cours41.jpeg",
+  },
+  {
+    idPictures: "80",
+    original: process.env.PUBLIC_URL + "/assets/hugs3.jpeg",
+  },
+   {
+    idPictures: "82",
+    original: process.env.PUBLIC_URL + "/assets/cours43.jpeg",
+  },
+  {
+    idPictures: "83",
+    original: process.env.PUBLIC_URL + "/assets/cours44.jpeg",
+  },
+  {
+    idPictures: "84",
+    original: process.env.PUBLIC_URL + "/assets/cours45.jpeg",
+  },
+  {
+    idPictures: "85",
+    original: process.env.PUBLIC_URL + "/assets/cours46.jpeg",
+  },
+  {
+    idPictures: "86",
+    original: process.env.PUBLIC_URL + "/assets/cours47.jpeg",
+  },
+  {
+    idPictures: "87",
+    original: process.env.PUBLIC_URL + "/assets/cours48.jpeg",
+  },
+  {
+    idPictures: "88",
+    original: process.env.PUBLIC_URL + "/assets/pupy7.jpeg",
+  },
+  {
+    idPictures: "89",
+    original: process.env.PUBLIC_URL + "/assets/pupy8.jpeg",
+  },
+  {
+    idPictures: "90",
+    original: process.env.PUBLIC_URL + "/assets/pupy9.jpeg",
+  },
+  {
+    idPictures: "91",
+    original: process.env.PUBLIC_URL + "/assets/pupy10.jpeg",
+  },
+  {
+    idPictures: "92",
+    original: process.env.PUBLIC_URL + "/assets/pupy11.jpeg",
+  },
+  {
+    idPictures: "93",
+    original: process.env.PUBLIC_URL + "/assets/pupy12.jpeg",
+  },
+  {
+    idPictures: "94",
+    original: process.env.PUBLIC_URL + "/assets/pupy13.jpeg",
+  },
+  {
+    idPictures: "95",
+    original: process.env.PUBLIC_URL + "/assets/cours49.jpeg",
+  },
+  {
+    idPictures: "96",
+    original: process.env.PUBLIC_URL + "/assets/cours50.jpeg",
+  },
+  {
+    idPictures: "97",
+    original: process.env.PUBLIC_URL + "/assets/cours51.jpeg",
+  },
+  {
+    idPictures: "98",
+    original: process.env.PUBLIC_URL + "/assets/pearl1.jpeg",
+  },
+  {
+    idPictures: "99",
+    original: process.env.PUBLIC_URL + "/assets/pearl2.jpeg",
+  },
+  {
+    idPictures: "100",
+    original: process.env.PUBLIC_URL + "/assets/cours52.jpeg",
+  },
+  {
+    idPictures: "101",
+    original: process.env.PUBLIC_URL + "/assets/cours53.jpeg",
+  },
+  {
+    idPictures: "102",
+    original: process.env.PUBLIC_URL + "/assets/cours54.jpeg",
+  },
+  {
+    idPictures: "103",
+    original: process.env.PUBLIC_URL + "/assets/cours55.jpeg",
+  },
+  {
+    idPictures: "104",
+    original: process.env.PUBLIC_URL + "/assets/cours56.jpeg",
+  },
+  {
+    idPictures: "105",
+    original: process.env.PUBLIC_URL + "/assets/cours57.jpeg",
+  },
+  {
+    idPictures: "106",
+    original: process.env.PUBLIC_URL + "/assets/cours58.jpeg",
+  },
+  {
+    idPictures: "107",
+    original: process.env.PUBLIC_URL + "/assets/cours59.jpeg",
+  },
+
+
 ];
