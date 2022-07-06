@@ -69,6 +69,27 @@
 .trust:hover .content {
   color: $colorWhite;
 }
+.logoPro img{
+  width:90px;
+  border-radius:5px;
+}
+
+.buttonSuivre a{
+        text-decoration: none;
+ color: white;
+
+}
+.buttonSuivre{
+  margin-top:-200px;
+   border-radius: 50px;
+   background: linear-gradient($colorOrange2,black);
+   text-align: center;
+   padding: 5px;
+   &:hover{
+    background-color: white;
+   }
+}
+
 
 @media #{$medium-down} {
    
@@ -76,20 +97,4 @@
          padding-top: 10px;
     }
   }
-      .logoPro img{
-        width:90px;
-        border-radius:5px;
-      }
-      .buttonSuivre a{
-              text-decoration: none;
-       color: white;
-      
-      }
-      .buttonSuivre{
-        margin-top:-200px;
-         border-radius: 50px;
-         background: linear-gradient($colorOrange2,black);
-         text-align: center;
-         padding: 5px;
-      }
-    
+     

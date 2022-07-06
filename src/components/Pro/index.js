@@ -21,7 +21,7 @@ function Pro() {
   <div className="containerImgLien">
   
   <div className="logoPro"> <img src={pro.picturePro} alt='picturePro'/>  </div>
-   <div className="buttonSuivre"> <a href="https://www.facebook.com/Intelligencecanine">En savoir plus... </a></div></div>
+   <div className="buttonSuivre"> <a href={pro.lien}>En savoir plus... </a></div></div>
  
   </div> </div> </div>}
 else{
