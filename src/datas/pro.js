@@ -18,7 +18,9 @@ export const  proTrust= [
     {
     id: "4",
     namePro: "La Tour de Farmina",
-    ville:'Saint-Phal'
+    picturePro: process.env.PUBLIC_URL +'/assets/farmina.jpeg',
+    ville:'Saint-Phal',
+    lien:'http://www.labradorsdelatourfarmina.com/?fbclid=IwAR0hVEHczSVFuklbXpQ9Epe29Wmmgq0TUFMbjquKJod41-_mzd4n-Iv24V8'
   },
  {
     id: "5",
