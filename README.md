@@ -1,4 +1,32 @@
-# Getting Started with Create React App
+# Intelligence Canine: construction of a responsive site to show the services of a canine behaviorist
+
+Create from scratch of a showcase site with the aim of developing the behaviorist's activity. Site with photos and animations on these photos, a form, a gallery.
+
+## Technologies
+
+- JS
+- CSS
+- React
+- React-scroll
+- React-slideshow-image
+- Tally pour le questionnaire
+  
+## Prerequisites
+
+- Node v17.9.0 or higher
+
+## Contribute to the project
+
+Intelligence Canine is an open source project.
+
+## Getting started
+
+Clone project
+Go to the cloned directory
+(p)npm install or yarn
+(p)npm start or yarn start
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -68,3 +96,19 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## Auteurs
+
+Melanie MARIANI – MDM DEVLOPMENT
+
+## License
+
+The MIT License (MIT)
+
+Copyright (c) 2022 melanie mariani
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
