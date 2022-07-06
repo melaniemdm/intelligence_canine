@@ -1,7 +1,7 @@
 {
   "name": "intelligence_canine",
   "version": "0.1.0",
-  "homepage": "https://melaniemdm.github.io/intelligence_canine",
+  "homepage": "https://intelligence-canine.netlify.app",
   "private": true,
   "dependencies": {
     "@babel/core": ">=7.0.0-0 <8.0.0",
