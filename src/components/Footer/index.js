@@ -24,8 +24,9 @@ function Footer(){
 <div>&nbsp; Abonnez vous à la page facebook et venez voir par vous même  ! &nbsp;</div>
 <img src={process.env.PUBLIC_URL + '/assets/like.png'} alt="lien facebook" className="like"/></a>
 
+</div><div className="mdm"> <a href="https://mdm-development.netlify.app/" alt="lien mdm">Create in partnership with mdm_delopement</a></div>
 </div>
-</div>
+
         </footer>
     )
 }
