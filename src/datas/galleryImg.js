@@ -1,7 +1,7 @@
 export const picturesGallery = [
   {
     idPictures: "1",
-    original: "https://res.cloudinary.com/dja64divh/image/upload/v1663924725/INTELLIGENCE_CANINE/apache_sj9svx_hkjgp5.webp",
+    original: "https://res.cloudinary.com/dja64divh/image/upload/v1664176551/INTELLIGENCE_CANINE/apache_sj9svx_hkjgp5_qyk4lc.webp",
   },
   {
     idPictures: "2",
