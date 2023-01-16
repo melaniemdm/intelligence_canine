@@ -18,7 +18,7 @@ function PresentationLaurence(){
     </div>
     <div id="card-information">
       <div id="photoProfilLaurence">
-<img src={process.env.PUBLIC_URL + '/assets/love.jpg'} alt="photoNag" />
+<img src={'https://res.cloudinary.com/dja64divh/image/upload/v1673886526/INTELLIGENCE_CANINE/testLaurence_akry4j_vs2vzs.webp'} alt="photoNag" />
 
       </div>
       <div id="card-text">
@@ -40,7 +40,7 @@ function PresentationLaurence(){
       <div id="card-sign">
         <p className="cardtitle">Signature du titulaire :</p>
         <div >
-        <img src={process.env.PUBLIC_URL +'/assets/empreinteHumaine.webp' }alt="photoNag" className="signatureLaurence"/>
+        <img src={'https://res.cloudinary.com/dja64divh/image/upload/v1673885247/INTELLIGENCE_CANINE/empreinteHumaine_dcpnfb_tggzge.webp' }alt="photoNag" className="signatureLaurence"/>
         </div>
       </div> 
       </div>

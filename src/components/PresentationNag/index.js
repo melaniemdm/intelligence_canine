@@ -18,7 +18,7 @@ function PresentationNag(){
 </div>
 <div id="card-information">
   <div id="photoProfilNag">
-<img src={process.env.PUBLIC_URL + '/assets/nag.jpg'} alt="photoNag" />
+<img src={'https://res.cloudinary.com/dja64divh/image/upload/v1673886542/INTELLIGENCE_CANINE/testNag_kyuurh_wxkvq0.webp'} alt="photoNag" />
 
   </div>
   <div id="card-text">
@@ -40,7 +40,7 @@ function PresentationNag(){
   <div id="card-sign">
     <p className="cardtitle">Signature du titulaire :</p>
     <div >
-    <img src={process.env.PUBLIC_URL +'/assets/empreinte.png' }alt="photoNag" className="signatureNag"/>
+    <img src={'https://res.cloudinary.com/dja64divh/image/upload/v1673885264/INTELLIGENCE_CANINE/empreinte_dkycw3_waidpn.webp' }alt="photoNag" className="signatureNag"/>
     </div>
   </div> 
   </div>

@@ -20,7 +20,7 @@ export const  proTrust= [
     namePro: "Elevage de La Tour Farmina",
     picturePro: process.env.PUBLIC_URL +'/assets/farmina.jpeg',
     ville:'Saint-Phal',
-    lien:'http://www.labradorsdelatourfarmina.com/?fbclid=IwAR0hVEHczSVFuklbXpQ9Epe29Wmmgq0TUFMbjquKJod41-_mzd4n-Iv24V8'
+    lien:'https://res.cloudinary.com/dja64divh/image/upload/v1673890569/INTELLIGENCE_CANINE/farmina2_qsbqch.jpg'
   },
  {
     id: "5",
@@ -30,13 +30,13 @@ export const  proTrust= [
   {
     id: "6",
   namePro: "Retriever club",
-  picturePro: "https://res.cloudinary.com/dja64divh/image/upload/v1663926871/INTELLIGENCE_CANINE/retrieverChamp_xqyws5_qbkbtk.png",
+  picturePro: "https://res.cloudinary.com/dja64divh/image/upload/v1673890923/INTELLIGENCE_CANINE/retrieverChamp_rp6edd_znj7i5.webp",
   ville:'Champagne Ardenne'
   },
   {
     id: "7",
     namePro: "Amélie Gardelle",
-    picturePro: "https://res.cloudinary.com/dja64divh/image/upload/v1663925191/INTELLIGENCE_CANINE/amelieOsteo_w14kud_lw9l4v.png",
+    picturePro: "https://res.cloudinary.com/dja64divh/image/upload/v1673890982/INTELLIGENCE_CANINE/amelieOsteo_w14kud_lw9l4v_hadtvb.webp",
   ville:'Lésigny'
   },
 ];

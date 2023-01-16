@@ -20,9 +20,9 @@ function Footer(){
 </div>
 <div className="textFooter">
 <a href="https://www.facebook.com/Intelligencecanine">
-<img src={process.env.PUBLIC_URL + '/assets/facebook.png'}  alt="lien facebook" className="logoFacebook"/>
+<img src='https://res.cloudinary.com/dja64divh/image/upload/v1673891089/INTELLIGENCE_CANINE/facebook_kzzqba_w4y7ic.webp'  alt="lien facebook" className="logoFacebook"/>
 <div>&nbsp; Abonnez vous à la page facebook et venez voir par vous même  ! &nbsp;</div>
-<img src={process.env.PUBLIC_URL + '/assets/like.png'} alt="lien facebook" className="like"/></a>
+<img src='https://res.cloudinary.com/dja64divh/image/upload/v1673891117/INTELLIGENCE_CANINE/like_dv2lrq_e0jrnq.webp' alt="lien facebook" className="like"/></a>
 
 </div><div className="mdm"> <a href="https://mdm-development.netlify.app/" alt="lien mdm">Site créé en partenariat avec mdm_development</a></div>
 </div>
