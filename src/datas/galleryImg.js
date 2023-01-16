@@ -362,7 +362,7 @@ export const picturesGallery = [
   },
   {
     idPictures: "91",
-    original: "https://res.cloudinary.com/dja64divh/image/upload/v1663927228/INTELLIGENCE_CANINE/pupy10_fxkuud_ya9mfa.webp",
+    original: "https://res.cloudinary.com/dja64divh/image/upload/v1664175118/INTELLIGENCE_CANINE/pupy10_fxkuud_ya9mfa_hnitml.webp",
   },
   {
     idPictures: "92",
