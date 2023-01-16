@@ -30,13 +30,13 @@ export const  proTrust= [
   {
     id: "6",
   namePro: "Retriever club",
-  picturePro: process.env.PUBLIC_URL +'/assets/retrieverChamp.jpg',
+  picturePro: "https://res.cloudinary.com/dja64divh/image/upload/v1663926871/INTELLIGENCE_CANINE/retrieverChamp_xqyws5_qbkbtk.png",
   ville:'Champagne Ardenne'
   },
   {
     id: "7",
     namePro: "Amélie Gardelle",
-    picturePro: process.env.PUBLIC_URL +'/assets/amelieOsteo.jpg',
+    picturePro: "https://res.cloudinary.com/dja64divh/image/upload/v1663925191/INTELLIGENCE_CANINE/amelieOsteo_w14kud_lw9l4v.png",
   ville:'Lésigny'
   },
 ];
