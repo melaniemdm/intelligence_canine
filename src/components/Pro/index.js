@@ -14,8 +14,8 @@ function Pro() {
 
  { proTrust.map(((pro,index)=> {if(pro.picturePro && pro.lien){ return <div className="trust" key={index}><div className="content" ><div  className='containerOnePresta'> 
  
- <div className="namePro">{pro.namePro}</div><br></br>
-  <div className="villePro"> {pro.ville} </div> <br></br>
+ <div className="namePro">{pro.namePro}</div><br key=' 0'></br>
+  <div className="villePro"> {pro.ville} </div> <br key='1 '></br>
   
   <div className="detailPro"> {pro.détail}  </div>
   <div className="containerImgLien">
@@ -26,8 +26,8 @@ function Pro() {
   </div> </div> </div>}
    if(pro.picturePro ){ return <div className="trust" key={index}><div className="content" ><div  className='containerOnePresta'> 
  
-  <div className="namePro">{pro.namePro}</div><br></br>
-   <div className="villePro"> {pro.ville} </div> <br></br>
+  <div className="namePro">{pro.namePro}</div><br key=' 2'></br>
+   <div className="villePro"> {pro.ville} </div> <br key='3 '></br>
    
    <div className="detailPro"> {pro.détail}  </div>
    <div className="containerImgLien">
@@ -39,8 +39,8 @@ function Pro() {
 
   return <div className="trust" key={index}><div className="content" ><div  className='containerOnePresta'> 
  
-  <div className="namePro">{pro.namePro}</div><br></br>
-   <div className="villePro"> {pro.ville} </div> <br></br>
+  <div className="namePro">{pro.namePro}</div><br key=' 4'></br>
+   <div className="villePro"> {pro.ville} </div> <br key='5 '></br>
    
    <div className="detailPro"> {pro.détail}  </div>
   

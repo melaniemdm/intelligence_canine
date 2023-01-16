@@ -1,6 +1,6 @@
 import './style.scss';
 import {nosPrestations} from '../../datas/presta';
-import ModalServices from '../ModalServices';
+import ModalPrestations from '../ModalPrestations';
 import {useEffect} from 'react';
 
 function Services(){
@@ -25,7 +25,7 @@ function Services(){
   </div>
  
   <div>
-{ nosPrestations.map((services,index)=><ModalServices key={index} title={services.titlePresta} detail={services.detail} idService={services.idService}/>)}
+{ nosPrestations.map((services,index)=><ModalPrestations key={index} title={services.titlePresta} detail={services.detail} idService={services.idService}/>)}
   </div>
 
 

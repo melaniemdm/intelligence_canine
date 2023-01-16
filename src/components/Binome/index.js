@@ -2,12 +2,12 @@ import './style.scss';
 import {useEffect} from 'react';
 
 function Services(){
-const txt =["Bonjour, je suis Laurence pour mes clients et tata Laurence pour vos 4 pattes.",<br></br>,
-"Je suis éducatrice canin Comportementaliste diplômée, déclarée et recommandée par des professionnels.",<br></br>,
-" Je suis l’heureuse propriétaire de Nagano mon bras droit, un magnifique labrador typé lignée américaine avec ses 44 kg.",<br></br>, 
-"Nagano est un chien professeur depuis l’âge de ses 1 an, c’est mon binôme indispensable sur les cours d’éducation.",<br></br>,
-"Sa zen attitude me permet de travailler tout type de troubles de comportement canin.",<br></br>,
-"Quant à moi, je suis avant tout une passionnée et comme je n’aime pas parler de moi mais plutôt de mon chien ou des vôtres , ce sont mes clients qui parleront le mieux de moi alors je vous laisse parcourir les avis laissés par mes clients. Ma pub c’est vous et rien que vous.",<br></br>,
+const txt =["Bonjour, je suis Laurence pour mes clients et tata Laurence pour vos 4 pattes.",<br key='0'></br>,
+"Je suis éducatrice canin Comportementaliste diplômée, déclarée et recommandée par des professionnels.",<br key='1 '></br>,
+" Je suis l’heureuse propriétaire de Nagano mon bras droit, un magnifique labrador typé lignée américaine avec ses 44 kg.",<br key='2 '></br>, 
+"Nagano est un chien professeur depuis l’âge de ses 1 an, c’est mon binôme indispensable sur les cours d’éducation.",<br key='3 '></br>,
+"Sa zen attitude me permet de travailler tout type de troubles de comportement canin.",<br key=' 4'></br>,
+"Quant à moi, je suis avant tout une passionnée et comme je n’aime pas parler de moi mais plutôt de mon chien ou des vôtres , ce sont mes clients qui parleront le mieux de moi alors je vous laisse parcourir les avis laissés par mes clients. Ma pub c’est vous et rien que vous.",<br key='5 '></br>,
 "Caninement vôtre Laurence et Nagano"];
 
   useEffect(() => {
