@@ -39,4 +39,9 @@ export const  proTrust= [
     picturePro: "https://res.cloudinary.com/dja64divh/image/upload/v1673890982/INTELLIGENCE_CANINE/amelieOsteo_w14kud_lw9l4v_hadtvb.webp",
   ville:'Lésigny'
   },
+  {
+    id: "8",
+    namePro: "Clinique Vérénaire du Docteur Lacroix",
+  ville:'Noiseaux'
+  },
 ];
